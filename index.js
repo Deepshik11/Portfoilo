@@ -25,24 +25,24 @@ document.addEventListener('mousemove', (e) => {
         circle.style.top = `${e.pageY - height / 2}px`;
     }, 20);
 });
-// -------text reveal----
-gsap.registerPlugin(ScrollTrigger);
+// // -------text reveal----
+// gsap.registerPlugin(ScrollTrigger);
 
-const splittypes = document.querySelectorAll('.about-h3');
-splittypes.forEach((char, i) => {
-    const text = new SplitType(char, { types: 'words' });
-    gsap.from(text.words, {
-        ScrollTrigger: {
-            trigger: char,
-            start: 'top 100%',
-            end: 'top 90%',
-            scrub: true,
-            markers: false
-        },
-        opacity: 0.2,
-        stagger: 0.1
-    });
-});
+// const splittypes = document.querySelectorAll('.about-h3');
+// splittypes.forEach((char, i) => {
+//     const text = new SplitType(char, { types: 'words' });
+//     gsap.from(text.words, {
+//         ScrollTrigger: {
+//             trigger: char,
+//             start: 'top 100%',
+//             end: 'top 90%',
+//             scrub: true,
+//             markers: false
+//         },
+//         opacity: 0.2,
+//         stagger: 0.1
+//     });
+// });
 
 
 // gsap.registerPlugin(ScrollTrigger);

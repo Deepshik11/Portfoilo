@@ -399,6 +399,7 @@ button {
 /* ----------about me----------- */
 .main-about-container {
     margin: 0 10%;
+
 }
 
 .about-h6 {
@@ -408,6 +409,35 @@ button {
     line-height: normal;
     color: #fff;
     text-transform: uppercase;
+    animation: change;
+    animation-timeline: scrollY();
+}
+
+@keyframes change {
+    10% {
+        color: white;
+    }
+
+    20% {
+        color: rgb(255, 174, 0);
+    }
+
+    40% {
+        color: rgb(17, 187, 56);
+    }
+
+    60% {
+        color: rgb(170, 33, 120);
+    }
+
+    80% {
+        color: rgb(13, 13, 40);
+    }
+
+    100% {
+        color: blue;
+    }
+
 }
 
 .about-h3 {
@@ -534,6 +564,7 @@ hr {
     border: 1px solid white;
     border-radius: 25px;
 }
+
 .certificate-container {
     display: flex;
     justify-content: space-between;
@@ -544,13 +575,15 @@ hr {
     display: flex;
     gap: 24px;
 }
+
 .award-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 200px;
 }
-.award-h1{
+
+.award-h1 {
     color: white;
     font-size: 29px;
     line-height: 41px;
@@ -590,9 +623,11 @@ hr {
     border: 1px solid white;
     border-radius: 25px;
 }
-.award-h5:nth-child(even){
+
+.award-h5:nth-child(even) {
     width: 100px;
 }
+
 .about1-h5 {
     width: 120px;
     text-align: center;
@@ -711,7 +746,7 @@ hr {
 .secound-logo {
     position: absolute;
     z-index: 3999;
-    width:20px;
+    width: 20px;
     height: 20px;
     background-image: url('Images/linkedin\ \(1\).png');
     background-size: contain;
@@ -724,8 +759,9 @@ hr {
     background-size: contain;
     opacity: 1;
 }
-.first1-logo{
-width: 50px;
+
+.first1-logo {
+    width: 50px;
     height: 50px;
     border-radius: 50%;
     background: #111;
@@ -734,7 +770,8 @@ width: 50px;
     align-items: center;
     transition: background .5s ease;
 }
-.first1-logo:hover{
+
+.first1-logo:hover {
     background: white;
 }
 

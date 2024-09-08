@@ -339,10 +339,13 @@
     .image-container {
         height: 700px;
         margin: 8% 0;
+        display: flex;
+        justify-content: center;
+        justify-content: center;
     }
 
     .image1 {
-        width: 100%;
+        width: 80%;
         height: 700px;
     }
 
@@ -421,7 +424,7 @@
 
     .technique {
         display: flex;
-        gap: 70px;
+        gap: 40px;
     }
 
     .tech2 {
