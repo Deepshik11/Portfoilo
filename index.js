@@ -65,3 +65,5 @@ document.addEventListener('mousemove', (e) => {
 //         ease: 'power1.in'
 //     });
 // });
+
+document.querySelector('.codelab_head').textContent="< Codelabs >"

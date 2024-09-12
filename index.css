@@ -484,6 +484,7 @@ button {
 }
 
 .about-h1 {
+    padding: 18px 0;
     font-size: 89px;
     line-height: 111px;
     font-weight: 400;
@@ -494,6 +495,7 @@ button {
 }
 
 .about1-h1 {
+    padding: 18px 0;
     font-size: 51px;
     line-height: 62px;
     font-weight: 400;

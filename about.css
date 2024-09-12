@@ -220,7 +220,7 @@
         position: relative;
         transition: .5s ease;
         overflow: hidden;
-      
+       
     }
     /* @keyframes change {
         0%{
@@ -328,7 +328,7 @@
     }
 
     .main-image1-container:nth-child(2) {
-        /* opacity: .3; */
+        opacity: .3;
     }
 
     .main-image-container {
@@ -362,3 +362,57 @@
         top: 60%;
         transition: top .9s ease;
     }
+/* -----------------------codelabs---page---------- */
+.codelabe_heading_container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.codelab_head{
+    font-size:96px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.codelab_para{
+    padding-top: 24px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+.coldelab_container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.codelabs_project_container{
+    margin-top: 100px;
+}
+.codelab_project{
+    display: flex;
+    gap: 56px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.code_lab_image1{
+    width: 600px;
+    height: 450px;
+    filter: grayscale(100%);
+  
+}
+.code_lab_image1:hover{
+    filter: grayscale(0);
+    transform: scale(1.133);
+    transition: .3s ease-out;
+}
+.sub_project_codelabs{
+    overflow: hidden;
+}
+.code_lab_head{
+    margin-top: 44px;
+    font-size: 24px;
+    color: white;
+
+}
